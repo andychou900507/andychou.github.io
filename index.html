@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'> 
+    </head>
+    <body>
+      <!--<img src="實習圖片檔.png" alt="andychou" width="600" height="828"><BR>-->
+      <h1>無聊做的超陽春踩地雷遊戲</h1>
+      <p>規則:</p>
+      <p>1. 系統預設難度為normal，通關會顯示congratulations!</p>  
+      <p>2. 底下有按鈕可以選擇難度，也會顯示你的最快通關紀錄。</p> 
+      <p>3. 系統一打開就會計時，按Restart或各個難度的鍵就會立刻重新計時。</p>           
+      <p>4. 覺得太悶可以點底下邊玩邊聽音樂，或是不要玩然後聽音樂看書或做事XD</p>
+      <div style="position:relative;width:350px;height:40px;overflow:hidden;">
+        <div style="position:absolute; left:-5px; top:-255px; z-index:1;">        
+          <iframe width="350" height="300" src="https://www.youtube.com/embed/xOA8brNElVo?rel=0"></iframe>
+        </div>
+      </div><BR><BR>
+
+      <span id = "time"></span>
+
+      <button id = "btn1" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn2" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn3" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn4" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn5" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn6" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn7" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn8" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn9" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn10" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn11" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn12" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn13" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn14" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn15" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn16" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn17" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn18" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn19" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn20" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn21" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn22" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn23" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn24" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn25" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn26" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn27" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn28" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn29" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn30" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn31" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn32" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn33" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn34" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn35" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn36" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn37" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn38" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn39" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn40" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn41" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn42" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn43" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn44" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn45" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn46" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn47" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn48" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn49" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn50" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn51" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn52" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn53" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn54" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn55" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn56" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn57" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn58" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn59" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn60" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn61" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn62" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn63" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn64" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn65" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn66" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn67" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn68" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn69" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn70" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn71" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn72" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn73" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn74" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn75" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn76" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn77" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn78" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn79" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn80" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn81" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn82" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn83" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn84" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn85" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn86" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn87" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn88" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn89" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn90" style = "width:50px;height:50px;font-size:20px">X</button><BR>
+      <button id = "btn91" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn92" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn93" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn94" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn95" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn96" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn97" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn98" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn99" style = "width:50px;height:50px;font-size:20px">X</button>
+      <button id = "btn100" style = "width:50px;height:50px;font-size:20px">X</button><BR><BR>
+      <button id = "btn101" style = "width:200px;height:50px;font-size:20px">Restart!</button>
+      <!--<audio src="modified.mp3" autoplay loop></audio><BR>-->
+      <div id = "content_2" style = "font-size:40px"></div><BR>
+      <div id = "content_3" style = "font-size:20px"></div><BR>
+      <div id = "content" style = "font-size:20px">Game Start！</div>
+      <div id = "content_1" style = "font-size:20px"></div><BR>
+      <div id = "content_4" style = "font-size:20px">目前easy版本最快速度是:尚無紀錄</div><BR>
+      <div id = "content_5" style = "font-size:20px">目前normal版本最快速度是:尚無紀錄</div><BR>
+      <div id = "content_6" style = "font-size:20px">目前hard版本最快速度是:尚無紀錄</div><BR>
+      <div id = "content_7" style = "font-size:20px">目前professional版本最快速度是:尚無紀錄</div><BR>
+      <button id = "btn_easy" style = "width:200px;height:50px;font-size:20px">easy</button>
+      <button id = "btn_normal" style = "width:200px;height:50px;font-size:20px">nornal</button>
+      <button id = "btn_hard" style = "width:200px;height:50px;font-size:20px">hard</button>
+      <button id = "btn_professional" style = "width:200px;height:50px;font-size:20px">professional</button>
+      <script src="script.js"></script>
+      <script src="timer.js"></script>
+
+      <!-- 引入 firebase 函式庫 -->
+      <!--<script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>-->
+      <!-- 引入 firestore 函式庫 -->
+      <!--<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>-->
+      <!--<button onclick="storedata()"> store</button>-->
+      <!--<button onclick="getdata()"> get</button>-->
+<!--      <script type="text/javascript">
+        const scriptURL='https://script.google.com/macros/s/AKfycbygc4uWwDhPi1teU_LJByp9w3vB0wruN2do8Vg5rB5Fk6Fg3owCaAs9I3TbXrq_ewYuaw/exec';
+        const form = document.forms['google']  
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          })
+      </script>-->
+    </body>
+</html>
